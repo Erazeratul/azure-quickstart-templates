@@ -20,7 +20,7 @@ steps:
     azureResourceManagerConnection: 'Erazer'
     subscriptionId: '80b0d0a2-8c9f-4297-840d-a0efbaac98ac' #Change for yours
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ErazerTest-rg'
+    resourceGroupName: 'EmyRG'
     location: 'northeurope'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
