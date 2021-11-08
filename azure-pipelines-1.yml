@@ -20,7 +20,7 @@ steps:
     azureResourceManagerConnection: 'ARMME'
     subscriptionId: '80b0d0a2-8c9f-4297-840d-a0efbaac98ac' #Change for yours
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipelinesDAVE-rg'
+    resourceGroupName: 'EMYTest-rg'
     location: 'westeurope'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
