@@ -21,7 +21,7 @@ steps:
     subscriptionId: '80b0d0a2-8c9f-4297-840d-a0efbaac98ac' #Change for yours
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ErazerTest-rg'
-    location: 'westeurope'
+    location: 'northeurope'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
